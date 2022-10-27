@@ -40,6 +40,8 @@
   <input type="text" id="lname" name="lname"><br><br>
   <label for="overallGPA">Please enter your overall GPA: </label>
   <input type="text" id="overallGPA" name="overallGPA"><br><br>
+   <label for="last30PA">Please enter your GPA from the last 30 credits: </label>
+  <input type="text" id="last30GPA" name="last30GPA"><br><br>
 <!--HOW WILL THE PEOPLE INPUT IN THE INFORMATION BUT WITH -->
 <form>
 <br> <br>
@@ -151,6 +153,8 @@ server called "action_page.php".</p>
   <input type="text" id="lname" name="lname"><br><br>
   <label for="overallGPA">Please enter your overall GPA: </label>
   <input type="text" id="overallGPA" name="overallGPA"><br><br>
+   <label for="last30PA">Please enter your GPA from the last 30 credits: </label>
+  <input type="text" id="last30GPA" name="last30GPA"><br><br>
 <!--HOW WILL THE PEOPLE INPUT IN THE INFORMATION BUT WITH -->
 <form>
 <br> <br>
