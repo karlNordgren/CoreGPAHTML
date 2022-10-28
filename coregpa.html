@@ -1,3 +1,5 @@
+<!-- Karl Nordgren, Ashley Ondoua, Tayler Howard, Zack Olsen, Thayne Evans, Oliver Escobar -->
+<!-- Core GPA HTML Group Project -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,10 +27,7 @@
   </head>
   <body>
     <form>
-      <!--insert html tags -->
-      <!--insert html tag for displaying the calcualted GPA -->
       <!------------------------------------------------------------------------------>
-      <!--Ashley Trying out this project-->
       <!--HOW WILL THE PEOPLE INPUT IN THE INFORMATION-->
       <h1>Please fill this out.</h1>
       <form action="/action_page.php">
@@ -73,6 +72,7 @@
           <label for="is201Grade">Please enter your IS 201 grade: </label>
           <select name="is201Grade" id="is201Grade">
             <option value="select">Select</option>
+            <!-- Need to assign values to Letters -->
             <option value="4.0">A</option>
             <option value="3.7">A-</option>
             <option value="3.4">B+</option>
@@ -119,7 +119,9 @@
       </form>
       <!-- THE BUTTON TO CALCULATE GPA-->
       <br>
+      <!-- Moved button down to the bottom -->
       <button type="button" onclick="calcGPA()">Calculate GPA</button>
+      <!-- Need to add a label that calls the function -->
       <br>
       <br> <label id="coreGPA"></label>
       <!-- <div class="popup" onclick="myFunction()">Click me!
